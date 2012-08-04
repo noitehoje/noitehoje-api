@@ -17,8 +17,19 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.files = [
+    ".document",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE.txt",
     "README.md",
-    "VERSION"
+    "Rakefile",
+    "VERSION",
+    "lib/noitehoje.rb",
+    "lib/noitehoje/resource.rb",
+    "lib/noitehoje/resources/event.rb",
+    "lib/noitehoje/resources/venue.rb",
+    "noitehoje.gemspec",
+    "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/felipecsl/noitehoje"
   s.licenses = ["MIT"]
